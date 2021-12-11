@@ -20,8 +20,40 @@ public class StartControllers {
         return "contact";
     }
     @RequestMapping("")
-    public String ssa()
+    public String showIndex()
     {
         return "index";
     }
+
+    @RequestMapping("/audio")
+    public String showAudio()
+    {
+        return "contact";
+    }
+
+    @RequestMapping("/grade")
+    public String showGrade()
+    {
+        return "contact";
+    }
+
+
+    @RequestMapping("/exams")
+    public String showExams()
+    {
+        return "contact";
+    }
+
+    @RequestMapping("/mock")
+    public String showMock()
+    {
+        return "contact";
+    }
+
+    @RequestMapping("/email")
+    public String showEmail()
+    {
+        return "contact";
+    }
+
 }

@@ -29,7 +29,7 @@ public class ConfigBase implements WebMvcConfigurer {
             viewResolver.setViewClass(JstlView.class);
             viewResolver.setPrefix("/WEB-INF/views/");
             viewResolver.setSuffix(".jsp");
-            viewResolver.setOrder(1);
+            viewResolver.setOrder(2);
             return viewResolver;
         }
 /*
@@ -53,6 +53,14 @@ public class ConfigBase implements WebMvcConfigurer {
         public void addResourceHandlers(ResourceHandlerRegistry registry) {
             registry.addResourceHandler("/resources/**").addResourceLocations("/resources/static/");
         }
+    @Override
+    public void configureViewResolvers(ViewResolverRegistry registry) {
+        InternalResourceViewResolver resolver = new InternalResourceViewResolver();
+        resolver.setPrefix("/WEB-INF/jsp/");
+        resolver.setSuffix(".jsp");
+        resolver.setOrder(2);
+        registry.viewResolver(resolver);
+    }
 
 
 }
