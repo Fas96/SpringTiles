@@ -22,6 +22,33 @@
         <put-attribute name="body" value="/WEB-INF/views/contact.jsp"></put-attribute>
     </definition>
 
+    <definition name="audio" extends="base">
+        <put-attribute name="title" value="Audio files page"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/contact.jsp"></put-attribute>
+    </definition>
+
+    <definition name="grade" extends="base">
+        <put-attribute name="title" value="Grade students"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/contact.jsp"></put-attribute>
+    </definition>
+
+    <definition name="exams" extends="base">
+        <put-attribute name="title" value="Students main exams page students"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/contact.jsp"></put-attribute>
+    </definition>
+    <definition name="mock" extends="base">
+        <put-attribute name="title" value="Students main exams mock page"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/contact.jsp"></put-attribute>
+    </definition>
+    <definition name="emails" extends="base">
+        <put-attribute name="title" value="Students email list"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/contact.jsp"></put-attribute>
+    </definition>
+
+    <definition name="audio" extends="base">
+        <put-attribute name="title" value="Students exams audio file download"></put-attribute>
+        <put-attribute name="body" value="/WEB-INF/views/contact.jsp"></put-attribute>
+    </definition>
 </tiles-definitions>
 
 

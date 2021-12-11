@@ -7,6 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
+
 	<a href="home"> Home </a> <br/>
 	<a href="contact"> Contact </a>
 </body>
