@@ -82,15 +82,7 @@
     <build>
         <finalName>SpringWebMVC-Tiles</finalName>
         <plugins>
-       <distributionManagement>
  
-    <site>
-      <id>mojo.website</id>
-      <name>Mojo Website</name>
-      <url>scp://beaver.codehaus.org/home/projects/mojo/public_html/</url>
-    </site>
-   
-  </distributionManagement>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
